@@ -1,0 +1,13 @@
+<JD:FragmentDefinition xmlns:JD="sap.ui.core" xmlns="sap.m">
+<Dialog title="This is My Title">
+<content>
+<Button text="Test content" />
+</content>
+<beginButton>
+<Button text="Continue" press="onContinue"/>
+</beginButton>
+<endButton>
+<Button text="Cancel" press="onCancel"/>
+</endButton>
+</Dialog>
+</JD:FragmentDefinition>

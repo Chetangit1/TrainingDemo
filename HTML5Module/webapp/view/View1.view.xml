@@ -1,0 +1,42 @@
+<mvc:View controllerName="ns.HTML5Module.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:mybt="ns.HTML5Module.Custom">
+				<Page id="page" title="{i18n>title}">
+					<content>
+                     <!-- <Table noDataText="Drop column list items here and columns in the area above" id="table3" items="{/Customers}">
+                        <items>
+                            <ColumnListItem type="Active" id="item4">
+                                <cells>
+                                    <Text text="{CustomerID}" id="text48"/>
+                                    <Text text="{CompanyName}" id="text49"/>
+                                    <Text text="{Address}" id="text50"/>
+                                    <Text text="{City}" id="text51"/></cells>
+                            </ColumnListItem>
+                        </items>
+                        <columns>
+                            <Column id="column9">
+                                <header>
+                                    <Label text="{i18n>custId}" id="label9"/>
+                                </header>
+                            </Column>
+                            <Column id="column10" >
+                                <header>
+                                    <Label text="{i18n>coName}" id="label10"/> -->
+                                <!-- </header>
+                            </Column>
+                            <Column id="column11" minScreenWidth="Tablet" demandPopin="true">
+                                <header>
+                                    <Label text="{i18n>Addr}" id="label11"/>
+                                </header>
+                            </Column>
+                             <Column id="column12" minScreenWidth="Tablet" demandPopin="true">
+                                <header>
+                                    <Label text="{i18n>city}" id="label12"/>
+                                </header>
+                            </Column>
+                            </columns></Table> -->
+                            <Button text="Open Dialog" press="onOpenDialog"/>
+                            <Input id="inpId"/>
+                            <mybt:MyButton text="Hi New Button" width='200px' height="50px" hover="onHoverFunc"> </mybt:MyButton>
+                            </content>
+				</Page>
+			
+</mvc:View>
